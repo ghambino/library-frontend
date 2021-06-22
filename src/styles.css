@@ -22,3 +22,23 @@ table {
 button:hover {
     cursor: pointer;
 }
+.page-header {
+    position: relative;
+}
+.logout-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+span {
+    border: 1px solid black;
+    padding: 5px;
+}
+span:hover {
+    cursor: pointer;
+}
+.selected {
+    background-color: cadetblue;
+    color: white;
+}

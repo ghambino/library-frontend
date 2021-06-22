@@ -36,7 +36,7 @@ const Authors = () => {
             <tr key={a.name}>
               <td>{a.name}</td>
               <td>{a.born}</td>
-              <td>{a.bookCount}</td>
+              <td></td>
             </tr>
           )}
         </tbody>
